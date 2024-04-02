@@ -1,0 +1,65 @@
+.heading{
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: "Poppins";
+    text-align: center;
+    color:blueviolet;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+}
+.content{
+    padding-top: 40px;
+    font-family: "Poppins";
+    padding-left: 80px;
+}
+.contact-card {
+    font-family: "Poppins";
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:#cbcbcb84 ;
+    border-radius: 10px;
+    margin-bottom: 80px;
+  }
+  
+  .contact-card h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color:blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }

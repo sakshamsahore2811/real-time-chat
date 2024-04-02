@@ -1,0 +1,22 @@
+.container{
+    background-image: radial-gradient(rgb(130, 111, 181),rgb(111, 0, 255));
+}
+.thanks{
+    color: white;
+    font-family: "Poppins";
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+.footer{
+    color: white;
+    font-family: "Poppins";
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a{
+    color:white;
+}

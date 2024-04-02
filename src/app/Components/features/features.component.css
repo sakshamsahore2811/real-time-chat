@@ -1,0 +1,62 @@
+.heading{
+    color: blueviolet;
+    font-family: "Poppins";
+    text-align:center;
+    font-weight: 600;
+    margin-top:60px;
+    font-size: 40px;
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the text */
+.animatefrombottom {
+  animation: slideInFromBottom 2s ease-out forwards;
+}
+
+.cards {
+    font-family: "Poppins";
+    display: flex;
+    margin-top: 60px;
+    font:bolder;
+    color: blueviolet;
+    font-weight: 600;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; 
+    padding: 80px;/* Adjust as needed */
+  }
+  
+  .card1, .card2, .card3 {
+    flex: 1; /* Each card will take up equal space */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center text */
+    background-color: #f0f0f0; /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for each card */
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+  transform: scale(1.1); /* Scale the card on hover */
+}
+  
+  .card1 {
+    margin-right: 10px; /* Adjust margin between cards */
+  }
+  
+  .card2 {
+    margin: 0 10px; /* Adjust margin between cards */
+  }
+  
+  .card3 {
+    margin-left: 10px; /* Adjust margin between cards */
+  }
+  
